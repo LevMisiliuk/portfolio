@@ -62,7 +62,6 @@ const Page = () => {
             />
           </Box>
         </Box>
-        asdasd
         <Section delay={0.1}>
           <Heading as='h3' variant='section-title'>
             Work
