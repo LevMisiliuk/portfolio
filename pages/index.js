@@ -8,7 +8,8 @@ import {
   List,
   ListItem,
   Link,
-  Icon
+  Icon,
+  Badge
 } from '@chakra-ui/react'
 import NextLink from 'next/link'
 import Section from '../components/section'
@@ -67,11 +68,21 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Lev is a developer and a front-end developer based in Dnipro with a
-            passion for building digital services/stuff he wants. He has a knack
-            for all things launching products, from planning and designing all
-            the way to solving real-life problems with code. When not online, he
-            loves hanging out with his friends.
+          Hi. My name is Lev and I&apos;m a front-end developer!
+          <br/>
+          I&apos;ve been working as a JavaScript developer for more than 3 years now and I&apos;ve tried the most popular frontend frameworks such as React, Angular, and Vuejs. And although Vuejs is the main one for me to switch to React or Angular for me will not be difficult because I have experience with these frameworks.
+          <br/>
+          I have also worked with NodeJs and Python, and am familiar with databases. It is not a problem for me to tweak small server applications as I have experience with them.
+          <br/>
+          I have a lot of experience working in large and small teams. I interact well with different development departments, I understand all backend processes, and I understand the flow that designers follow in their work, so it is not a problem for me to find a common language with my colleagues.
+          <br/>
+          I am very easy to work with, very independent, and ready to grow. I don&apos;t need to be followed closely because I understand what the business wants and I give it 100% from my side.
+          <br/>
+          I have decent experience working in English-speaking teams. Morning standups, big meetings, gathering requirements from the customer with this I am well familiar!
+          <br/>
+          I am ready to mentor new developers and help the company grow both in the media field and technical department. I believe that transferring knowledge to new people makes it better not only for them but also for you as it is an integral factor for growth.
+          <br/>
+          I have a year of experience in QA so I understand how my work will be checked and I will not let bugs leak into the system
           </Paragraph>
           <Box align='center' my={4}>
             <NextLink href='/works'>
@@ -89,8 +100,8 @@ const Page = () => {
             Skils
           </Heading>
           <Paragraph>
-            JavaScript, React, Next.js, Node.js, GraphQL, Vue 3/2, Nuxt.js,
-            HTML, CSS, SCSS, Tailwind, Figma, Chakra UI, Element UI, Git,
+            JavaScript (ES6+), React/Redux/Next.js, Node.js, GraphQL, Vue 3/Vue 2/Vuex/Nuxt.js, Angular.js,
+            RESTful APIs, Webpack/Gulp.js, HTML5, CSS/Sass/Less, Tailwind, Figma, Chakra UI, Element UI, Git,
             Cypress
           </Paragraph>
         </Section>

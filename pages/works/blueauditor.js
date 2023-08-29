@@ -1,4 +1,4 @@
-import { Badge, Container, Link, List, ListItem } from '@chakra-ui/react'
+import { Badge, Container, Heading, Link, List, ListItem } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { Meta, Title, WorkImage } from '../../components/work'
 import Paragraph from '../../components/paragraph'
@@ -11,6 +11,17 @@ const Work = () => {
         <Title>
           BlueAuditor <Badge>2021</Badge>
         </Title>
+        <Heading as='h3' variant='section-title'>
+            My part in project
+        </Heading>
+        <Paragraph>
+          Most of what I&apos;ve been working on: I had to implement complex forms with steps and saving the state of each previous step. There was a lot of work with charts, namely chart.js
+          from the achievements I was able to close a difficult task concerning the chart, I had to make a custom implementation.
+          Also, there was a need to create and implement custom components such as inner tabs, paginations, etc.
+        </Paragraph>
+        <Heading as='h3' variant='section-title'>
+          General info about project
+        </Heading>
         <Paragraph>
           Blue Auditor is the only digital marketplace platform that brings
           together all major green building certification standards in one
@@ -35,12 +46,14 @@ const Work = () => {
             https://blueauditor.com/ <ExternalLinkIcon mx='2px' />
             </Link>
           </ListItem>
+          <Paragraph>Just a landing page</Paragraph>
           <ListItem>
             <Meta>App</Meta>
             <Link href='https://app.blueauditor.com/'>
             https://app.blueauditor.com/ <ExternalLinkIcon mx='2px' />
             </Link>
           </ListItem>
+          <Paragraph>Application. But I can&apos;t provide you creds, sorry</Paragraph>
           <ListItem>
             <Meta>Stack</Meta>
             <span>Vue 3, Vuex, StoryBook</span>
