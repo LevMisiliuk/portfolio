@@ -21,7 +21,7 @@ const Works = () => {
           <Section>
             <WorkGridItem
               id='0'
-              href='sweetTv'
+              href='sweettv'
               title='SweetTV'
               thumbnail={thumbSweetTV}
             >

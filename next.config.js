@@ -12,7 +12,7 @@ module.exports = {
       '/works/blueauditor': { page: '/works/blueauditor' },
       '/works/farego': { page: '/works/farego' },
       '/works/vostokmedservice': { page: '/works/vostokmedservice' },
-      '/works/sweetTv': { page: '/works/sweetTv' },
+      '/works/sweettv': { page: '/works/sweettv' },
     };
   },
 };
