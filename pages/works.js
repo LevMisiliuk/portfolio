@@ -20,9 +20,9 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
-              id='1'
-              href='sweettv'
-              title='Sweet TV'
+              id='0'
+              href='sweetTv'
+              title='SweetTV'
               thumbnail={thumbSweetTV}
             >
               Is a Ukrainian streaming service that offers access to TV channels, movies and TV series

@@ -26,7 +26,7 @@ const Page = () => {
     <Layout>
       <Container mt={5}>
         <Box
-          borderRadius='lg'
+          borderradius='lg'
           bg={useColorModeValue('blackAlpha.500', 'whiteAlpha.200')}
           p={3}
           mb={6}
@@ -55,7 +55,7 @@ const Page = () => {
               maxWidth='100px'
               display='inlinde-block'
               alt='Misiliuk Lev'
-              borderRadius='full'
+              borderradius='full'
               src='images/lev.jpeg'
             />
           </Box> */}
