@@ -7,7 +7,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 const Work = () => {
   return (
     <Layout title='BlueAuditor Marketplace'>
-      <Container>
+      <Container mt={5}>
         <Title>
           FareGo+ <Badge>2021</Badge>
         </Title>

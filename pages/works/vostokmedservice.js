@@ -7,14 +7,14 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 const Work = () => {
   return (
     <Layout title='BlueAuditor Marketplace'>
-      <Container>
+      <Container mt={5}>
         <Title>
           Vostokmedservice <Badge>2021</Badge>
         </Title>
         <Paragraph>
-          Vostok-Medservice is a specialised company in the field of
-          traumatology, orthopaedics and neurosurgery, as well as the exclusive
-          representative of the Hungarian manufacturer Medimetal Kft in Ukraine,
+          Vostok-Medservice is a specialized company in the field of
+          thaumatology, orthopaedics and neurosurgery, as well as the exclusive
+          representative of the Hungarian manufacturer Medical Kft in Ukraine,
           which produces thousands of implants made of high-quality stainless
           steel and titanium. Our company offers a wide range of medical
           equipment and surgical instruments. The main advantages of the

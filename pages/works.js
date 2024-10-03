@@ -8,11 +8,12 @@ import thumFarego from '../public/images/works/scheidt_bachmann.webp'
 import thumbVostokmedservice from '../public/images/works/vostokmedservice.png'
 import thumbOkoshko from '../public/images/works/okoshko.png'
 import thumbVetdp from '../public/images/works/vetdp.png'
+import thumbSweetTV from '../public/images/works/sweettv.webp'
 
 const Works = () => {
   return (
     <Layout>
-      <Container>
+      <Container mt={5}>
         <Heading as='h3' fontSize={20} mb={4}>
           Works
         </Heading>
@@ -20,21 +21,28 @@ const Works = () => {
           <Section>
             <WorkGridItem
               id='1'
+              href='sweettv'
+              title='Sweet TV'
+              thumbnail={thumbSweetTV}
+            >
+              Is a Ukrainian streaming service that offers access to TV channels, movies and TV series
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id='1'
               href='blueauditor'
               title='BlueAuditor Marketplace'
               thumbnail={thumbBlueAuditor}
             >
-              Blue Auditor is the only digital marketplace platform that brings
-              together all major green building certification standards in one
-              single platform.
+              Blue Auditor is the only digital marketplace platform that brings ...
             </WorkGridItem>
           </Section>
 
           <Section>
-            <WorkGridItem  href='farego' id='2' title='FareGo+' thumbnail={thumFarego}>
+            <WorkGridItem href='farego' id='2' title='FareGo+' thumbnail={thumFarego}>
               Brand FareGo provides advanced fare collection systems and an
-              extensive service range that enables transport operators to focus
-              on their core business.
+              extensive service range ...
             </WorkGridItem>
           </Section>
 

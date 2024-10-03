@@ -14,7 +14,6 @@ const LogoBox = styled.span`
 
   img {
     transition: 1s all ease;
-    transform: rotate(-40deg);
   }
 
   &:hover img {
@@ -24,7 +23,7 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.svg`
+  const footPrintImg = `/images/anime.svg`
 
   return (
     <Link href='/'>
