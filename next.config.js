@@ -1,5 +1,8 @@
 module.exports = {
   reactStrictMode: true,
+  images: {
+    unoptimized: true,  // Вимикає оптимізацію зображень
+  },
   exportPathMap: function () {
     return {
       '/': { page: '/' },
